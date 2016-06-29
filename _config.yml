@@ -1,18 +1,20 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+title: Ratul Minhaz
+description: 'I am a web developer based in Dhaka, Bangladesh. I use Python for data wrangling. I want to be an omniglot.'
+# url: 'http://joshgerdes.com/jekyll-uno'
+url: 'http://127.0.0.1:4000'
+# baseurl: '/jekyll-uno/'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Ratyk Minhaz'
+  email: m@ratul.xyz
+  twitter_username: mnz_r
+  facebook_username: minhaz.ratul
+  github_username:  mnzr
+  linkedin_username:  minhazratul
 
 defaults:
   -
