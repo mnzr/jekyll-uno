@@ -16,12 +16,10 @@ published: true
 API, or Application Programming Interface was created to make things easier for developers who want to use anything made by other people. That's the watered down version of what an API is, you can(should) Google and learn more about it. There are tons of APIs out there that you can use to access anything starting from social media posts to map location data. A site called [Programmable Web](http://www.programmableweb.com/) keeps track of over 13,000 APIs like Google Maps, Twitter, Youtube, Flickr etc.
 <!--more-->
 
-> This is the second of a three part tutorial series on getting started with scraping data from Github:
->
-> 1. [The Setup]({{ site.baseurl}}/scraping-github-1)
-> 2. [Fetching Data]({{ site.baseurl}}/scraping-github-2) (<-- you are here)
-> 3. [Storing to RethinkDB]({{ site.baseurl}}/scraping-github-3)
->
+*This is the second of a three part tutorial series on getting started with scraping data from Github:*<br>
+*1. [The Setup]({{ site.url}}/scraping-github-1)*<br>
+*2. [Fetching Data]({{ site.url}}/scraping-github-2) (<-- you are here)*<br>
+*3. [Storing to RethinkDB]({{ site.url}}/scraping-github-3)*<br>
 
 Are you ready to begin scraping? Definitely you are, you have set up all the tools needed. But the question is, what are you going to scrape? Remember the API I talked about last time?
 
@@ -54,7 +52,7 @@ Websites like Github and Facebook have API or Application Programming Interface 
 }
 {% endhighlight %}
 
-This is what I see when I visit the address with Python's daddy Guido's username: [https://api.github.com/users/gvanrossum](https://api.github.com/users/mnzr). I left out a few lines so that it's easier to read. You will notice that we can know many things about Guido's Github account: when it was created, how many public repositories he has, even how many people he is following. This is how it works: Github takes a few parameters from you (eg. Guido's username) and looks up the related information in their database. Depending on your access permission, Github then shows you a webpage with the available info. The page is in [JSON](www.json.org) format, that is, list of data in key-value pairs. Not very unlike Python's dictionaries.
+This is what I see when I visit the address with Python's daddy Guido's username: [https://api.github.com/users/gvanrossum](https://api.github.com/users/gvanrossum). I left out a few lines so that it's easier to read. You will notice that we can know many things about Guido's Github account: when it was created, how many public repositories he has, even how many people he is following. This is how it works: Github takes a few parameters from you (eg. Guido's username) and looks up the related information in their database. Depending on your access permission, Github then shows you a webpage with the available info. The page is in [JSON](www.json.org) format, that is, list of data in key-value pairs. Not very unlike Python's dictionaries.
 
 ## Let's start scraping!
 
@@ -140,6 +138,6 @@ We already completed our main objective, that is, scrap info from APIs. Congratu
         print('')
 {% endhighlight %}
 
-This time when we run the code, it will grab info of all the usernames in `users` list. Then print the properties of them too. We can move on to [next stage]({{ site.baseurl}}/scraping-github-3): saving the info in to RethinkDB's database. Here is the full code for further use.
+This time when we run the code, it will grab info of all the usernames in `users` list. Then print the properties of them too. **We can move on to [next stage]({{ site.url }}/scraping-github-3):** saving the info in to RethinkDB's database. Here is the full code for further use.
 
 <script src="https://gist.github.com/mnzr/30fbd4e6fd3177a53f83.js"></script>

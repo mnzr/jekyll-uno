@@ -16,16 +16,14 @@ published: true
 Data science is a buzzword these days and everyone is asking how to be a data scientist. A data scientist's job is definitely awesome, because if anyone is close to predicting the future, they are the ones who probably do it. But what does a data scientist actually do? The process of "data science" roughly consists of three things: mining, analysis and visualization. Each one of these three segments is interesting in it's own right. In data mining you get to collect data from large data sources, mostly from the Internet using clever techniques like scraping.
 <!--more-->
 
-> This is the first of a three part tutorial series on getting started with scraping data from Github:
->
-> 1. [The Setup]({{ site.baseurl}}/scraping-github-1) (<-- you are here)
-> 2. [Fetching Data]({{ site.baseurl}}/scraping-github-2)
-> 3. [Storing to RethinkDB]({{ site.baseurl}}/scraping-github-3)
->
+*This is the second of a three part tutorial series on getting started with scraping data from Github:*<br>
+*1. [The Setup]({{ site.url}}/scraping-github-1) (<-- you are here)*<br>
+*2. [Fetching Data]({{ site.url}}/scraping-github-2)*<br>
+*3. [Plotting with ]({{ site.url}}/scraping-github-3)*<br>
 
 Many websites provide `API` so that other people can collect data from those sites to use in their work. For example you might want to know a Facebook page's growth over a certain period of time. Facebook made an API just so that you can get the data to do the analysis needed to answer your question. This sort of API is provided by Github and Twitter too. You can not imagine how vastly useful this public data is, they even came in handy as much as [detecting earthquakes](https://blog.twitter.com/2015/usgs-twitter-data-earthquake-detection) faster than the U.S. Geological Survey!
 
-![earthquake_technology.png]({{site.baseurl}}/assets/images/earthquake_technology.png)
+![earthquake_technology.png]({{ site.url }}/images/earthquake_technology.png)
 
 Enough talk, let's have some action! In this tutorial, I will get you started with scraping data from API using Python. We will use Github's API as data source and keep the scraped data in a database called RethinkDB. Don't worry if you have never heard of it before, it's pretty cool. If you want to try out other databases, you will just have to tweak a few lines of code. Let's set up the necessary softwares.
 
@@ -57,7 +55,7 @@ pip install rethinkdb
 {% endhighlight %}
 
 
-__Now you are worthy enough to move on to [next stage]({{ site.baseurl}}/scraping-github-2) :D__
+__Now you are worthy enough to move on to [next stage]({{ site.url }}/scraping-github-2) :D__
 
-<a href="http://www.twitter.com/share?text={{ page.title}}&url={{ page.url | prepend: site.baseurl | prepend:site.url }}&via=mnz_r">
+<a href="http://www.twitter.com/share?text={{ page.title}}&url={{ page.url | prepend: site.url | prepend:site.url }}&via=mnz_r">
                     Tweet</a> to me if you have any questions or suggestions.
