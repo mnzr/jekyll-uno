@@ -1,8 +1,8 @@
 # Site settings
 title: Ratul Minhaz
 description: 'I am a web developer based in Dhaka, Bangladesh. I use Python for data wrangling. I want to be an omniglot.'
-# url: 'http://joshgerdes.com/jekyll-uno'
-url: 'http://127.0.0.1:4000'
+url: 'http://ratul.xyz'
+# url: 'http://127.0.0.1:4000'
 # baseurl: '/jekyll-uno/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
