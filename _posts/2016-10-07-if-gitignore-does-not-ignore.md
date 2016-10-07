@@ -5,6 +5,9 @@ date: 2015-04-15T11:03:31.000Z
 description: Solution to .gitignore file not ignoring
 categories:
   - Tips
+tags:
+  - git
+  - tips
 ---
 Sometimes when you manually edit the .gitignore file in a repo to ignore some specific files, git doesn't really do that immediately. The reason for this is: the files you want git to ignore is already in git’s cache, so the system can’t “unsee” those files. Remedy to this problem is very simple:
 - Commit any progress, otherwise they will get lost
