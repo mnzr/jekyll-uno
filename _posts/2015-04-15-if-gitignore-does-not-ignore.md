@@ -14,7 +14,8 @@ Sometimes after changing your .gitignore the new (un)ignored files don't get get
 - Commit any staged progress, otherwise they will get lost
 - Run this with the file name. If there are way to many, replace `<file>` with `.` to remove all files from cache:
 
-``` git rm -r --cached <file> ```
+``` 	git rm -r --cached <file> ```
+
 - Now no files are in cache, so add them except the ones mentioned in .gitignore:
 
 ``` git add . ```
