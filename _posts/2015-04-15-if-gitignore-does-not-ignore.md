@@ -14,19 +14,25 @@ Sometimes after changing your .gitignore the new (un)ignored files don't get get
 1. Commit any staged progress, otherwise they will get lost
 2. Run this with the file name. If there are way to many, replace `<file>` with `.` to remove all files from cache:
 
-``` 
-	git rm -r --cached <file> 
+``` shell
+git rm -r --cached <file> 
 ```
 
 3. Now no files are in cache, so add them except the ones mentioned in .gitignore:
 
-``` git add . ```
+``` shell
+git add . 
+```
 
 - Lastly, simply commit again:
 
-``` git commit -m "fixed .gitignore" ```
+``` shell
+git commit -m "fixed .gitignore" 
+```
 
 Tada, problem solved! If you ever want to undo this, just add the file to git:
 
-``` git add <file> ```
+``` shell
+git add <file> 
+```
 
