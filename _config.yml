@@ -12,7 +12,7 @@ baseurl: '/'
 
 author:
   name: 'Ratul Minhaz'
-  email: m@ratul.xyz
+  email: me@ratul.xyz
   twitter_username: mnz_r
   facebook_username: minhaz.ratul
   github_username:  mnzr
@@ -41,5 +41,5 @@ kramdown:
   # syntax_highlighter: rouge
 
 
-gems: ['jekyll-paginate']
+gems: [jekyll-paginate, jekyll-admin]
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
