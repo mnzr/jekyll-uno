@@ -9,8 +9,9 @@ tags:
   - git
   - tips
 ---
-Sometimes after changing your .gitignore the new (un)ignored files don't get get behind the scenes, as you would have expected. The reason behind this is you have already committed the files that you added to .gitignore and now git is tracking the files. Unless you delete them git will keep an eye on any changes on those files as it would do with any other. To get the new .gitignore rule registered with the repo you will have to manually remove tho file(s) from git's cache. Here is what you need to do:
+Sometimes after changing your .gitignore the new (un)ignored files don't get get behind the scenes, as you would have expected. The reason behind this is you have already committed the files that you added to .gitignore and now git is tracking the files. Unless you delete them git will keep an eye on any changes on those files as it would do with any other. To get the new .gitignore rule registered with the repo you will have to manually remove tho file(s) from git's cache.
 
+So here is what you need to do:
 1. Commit any staged progress, otherwise they will get lost
 2. Run this with the file name. If there are way to many, replace `<file>` with `.` to remove all files from cache:
 
@@ -24,7 +25,7 @@ git rm -r --cached <file>
 git add . 
 ```
 
-- Lastly, simply commit again:
+4. Lastly, simply commit again:
 
 ``` shell
 git commit -m "fixed .gitignore" 
