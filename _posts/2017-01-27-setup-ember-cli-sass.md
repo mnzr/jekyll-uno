@@ -4,15 +4,15 @@ layout: post
 permalink: datasci-intro-4-bn
 date: 2017-01-27T00:00:00.000Z
 author: Ratul Minhaz
-summary: Setting up Ember CLI Sat
-categories: Learning
+summary: Setting up Ember CLI Sass properly
+categories: Tips
 tags:
-  - Python
-  - Data science
+  - Ember
+  - Sass
 ---
 ## Setting
 
-Trying to set up SASS with Ember can be quiet problematic if you are using a version manager for Node. For example I was using a version manager called 'n' and could not integrate SASS in anyway with my Ember app. It all boiled down to my Ember installation not finding libraries needed to compile SASS. These two modules were the reason of the problem: node-gyp and node-sass.
+Trying to set up Sass with Ember can be quiet problematic if you are using a version manager for Node. For example I was using a version manager called 'n' and could not integrate SASS in anyway with my Ember app. It all boiled down to my Ember installation not finding libraries needed to compile SASS. These two modules were the reason of the problem: node-gyp and node-sass.
 
 After fiddling around for a while I found out the proper way to setup SASS with Ember:
 
