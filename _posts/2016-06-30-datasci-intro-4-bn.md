@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "ডেটা সাইন্সে হাতে খড়ি - ৪"
+title: ডেটা সাইন্সে হাতে খড়ি - ৪
 permalink: datasci-intro-4-bn
-date: 2016-06-30
+date: 2016-06-30T00:00:00.000Z
 author: Ratul Minhaz
 summary: Introductory data analysis and visualization
 categories: Learning
 tags:
   - Python
-  - "Data science"
+  - Data science
 published: true
 ---
 
