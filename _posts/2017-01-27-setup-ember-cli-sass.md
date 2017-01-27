@@ -20,5 +20,5 @@ After fiddling around for a while I found out the proper way to setup Sass with 
 n latest						# switch to the latest version of Node
 npm install -g node-gyp
 npm install -g node-sass
-ember install ember-cli-sass	# this will install Ember addons for SASS
+ember install ember-cli-sass	# this will install Ember addons for Sass
 '''
