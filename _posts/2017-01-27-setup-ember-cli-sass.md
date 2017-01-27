@@ -1,5 +1,14 @@
 ---
 published: false
+layout: post
+permalink: datasci-intro-4-bn
+date: 2017-01-27T00:00:00.000Z
+author: Ratul Minhaz
+summary: Setting up Ember CLI Sat
+categories: Learning
+tags:
+  - Python
+  - Data science
 ---
 ## Setting
 
