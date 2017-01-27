@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 permalink: datasci-intro-4-bn
 date: 2017-01-27T00:00:00.000Z
