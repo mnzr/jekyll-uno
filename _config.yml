@@ -13,9 +13,9 @@ baseurl: '/'
 author:
   name: 'Ratul Minhaz'
   email: me@ratul.xyz
-  twitter_username: mnz_r
-  facebook_username: minhaz.ratul
-  github_username:  mnzr
+  twitter_username: ratulotron
+  facebook_username: ratulotron
+  github_username:  ratulotron
   linkedin_username:  minhazratul
 
 defaults:
